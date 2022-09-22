@@ -358,6 +358,7 @@ header .column a {
 
 .carousel-caption {
     top: 37%;
+    left: 22%;
 }
 
 .carousel {
@@ -1963,4 +1964,8 @@ nav.buttons a:hover {
 }
 .dropdown-menu {
     z-index: 101;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 32%;
 }
