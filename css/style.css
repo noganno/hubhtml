@@ -49,7 +49,7 @@ header .bg {
 }
 
 .container {
-    max-width: 1103px;
+    max-width: 1064px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -111,26 +111,35 @@ header .column a {
 }
 
 .catalog_menu a {
-    padding-right: 15px;
     font-size: 16px;
     top: 19px;
 }
-
+.catalog_menu1 {
+    padding-right: 18px;
+}
+.catalog_menu2 {
+    padding-right: 15px;
+}
 .btn_orange {
     background: #F69223;
     box-shadow: 0px 16px 24px rgba(35, 145, 202, 0.25);
     border-radius: 45px;
-    padding: 8px 15px;
+    padding: 5px 15px;
     height: 33px;
-    padding-top: 6px;
+    width: 140px;
+    display: inline-block;
 }
-
+.flag_ru_btn {
+    padding-left: 4px;
+    padding-top: 0;
+}
 .login_a {
     text-transform: uppercase;
 }
 
 .flag_ru {
     width: 20px;
+    margin-top: -4px;
 }
 
 .btn_orange_p {
@@ -284,25 +293,22 @@ header .column a {
     top: 9px;
 }
 
-.search_form input {
+.search_form input, .ordersBox input {
     width: 100%;
     margin-top: 20px;
     background: #F2F2F2;
     border-radius: 45px;
     border: none;
     height: 39px;
+    padding-left: 16px;
 }
 
 ::placeholder {
     font-weight: 450;
     font-size: 16px;
     line-height: 14px;
-    /* identical to box height, or 88% */
     padding-left: 16px;
-
-
     color: #8E8E8E;
-
 }
 
 .carousel-control-next-icon {
@@ -1968,4 +1974,218 @@ nav.buttons a:hover {
 
 .carousel-control-next, .carousel-control-prev {
     width: 32%;
+}
+
+.profile .left_menu_profile {
+    width: 226px;
+    box-shadow: 0px 1px 17px rgba(201, 201, 201, 0.22);
+    border-radius: 10px;
+    margin-bottom: 390px;
+}
+.profile .left_menu_profile .accordion-header button{
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 30px;
+    color: #484848;
+    padding: 11px 5px;
+}
+
+content h1 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4E4E4E;
+    margin-bottom: 27px;
+}
+
+.profile .accordion-button, .profile .accordion-header, --bs-accordion-btn-focus-border-color {
+    border-bottom-color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+.profile .accordion-button:not(.collapsed) {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 30px;
+    color: #484848;
+    border-color: #fff;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.accordion-header img {
+    margin-right: 13px;
+}
+
+.profile .accordion ul li a {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 30px;
+    color: #8E8E8E;
+}
+.profile .accordion ul{
+    margin-bottom: 0
+}
+
+.profile .accordion-body img {
+    width: 19px;
+}
+.profile .accordion-body {
+    padding-top: 5px;
+}
+
+.breadcrumb a{
+    font-weight: 450;
+    font-size: 13px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+.text-bg-light {
+    background: #fff;
+    background-color: #fff
+}
+.bgw {
+    background: #fff;
+    background-color: #fff
+}
+
+.statusBox, .statusBoxYou, .ordersBox {
+    margin-left: 20px;
+    margin-bottom: 11px;
+}
+.statusBox h3, .statusBoxYou h3, .ordersBox h3 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    color: #4E4E4E;
+}
+
+.statusBox p {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #8E8E8E;
+}
+.statusBox p span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2391CA;
+}
+.statusBox ul li{
+    display: inline-block;
+    width: 48%;
+}
+.statusBox ul{
+    margin: 0 auto;
+}
+.statusBoxYou ul li {
+    display: inline-block;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 25px;
+    color: #8E8E8E;
+    height: 84px;
+}
+.statusBoxYou ul {
+   margin-top: 14px;
+}
+.statusBoxYou p {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #8E8E8E;
+}
+
+.statusBoxYou p span {
+    color: #EE7F00;
+}
+.statusBoxYou .scale img {
+    display: inline;
+    width: 500px;
+}
+.statusBoxYou .scale p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2391CA;
+}
+
+.ordersBox ul li {
+    display: inline-block;
+}
+.ordersBox ul li input {
+    margin-left: 25px;
+}
+
+.ordersBox .accordion-header button {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    color: #4E4E4E;
+}
+.ordersBox .accordion-header button span{
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 25px;
+    color: #8E8E8E;
+    padding-left: 32px
+}
+
+.ordersBox thead{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    color: #4E4E4E;
+}
+.ordersBox td{
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #8E8E8E;
+}
+
+.ordersBox .pay_status {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #009378;
+}
+.ordersBox .time_status {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #EE7F00;
+}
+.ordersBox .wait_status {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #DB0031;
+}
+
+.search_form_li {
+    position: relative;
+}
+.search-button {
+    background-image: url("../../img/search.png");
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 33px;
+    right: -10px;
+    border: 0;
+}
+.search-button-top {
+    background-image: url("../../img/search.png");
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 33px;
+    right: 29px;
+    border: 0;
 }
