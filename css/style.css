@@ -534,6 +534,24 @@ header .column a {
     border-radius: 20px;
     overflow: hidden;
 }
+.ordersForm thead {
+    background: #F2F2F2;
+    border-radius: 10px;
+    vertical-align: center;
+}
+
+.ordersForm table {
+    background: white;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ordersForm tr {
+    height: 59px;
+}
+.ordersForm td, .ordersForm th {
+    vertical-align: middle; text-align: center;
+}
 
 .more {
     display: block;
@@ -2063,7 +2081,7 @@ content h1 {
 
 .bgw {
     background: #fff;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .statusBox, .statusBoxYou, .ordersBox {
@@ -2175,25 +2193,31 @@ content h1 {
     color: #8E8E8E;
 }
 
-.ordersBox .pay_status {
+.pay_status {
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
     color: #009378;
 }
 
-.ordersBox .time_status {
+.time_status {
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
     color: #EE7F00;
 }
 
-.ordersBox .wait_status {
+.wait_status {
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
     color: #DB0031;
+}
+.blue_status {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #2391CA;
 }
 
 .search_form_li {
@@ -2220,15 +2244,14 @@ content h1 {
     border: 0;
 }
 
-.profileForm h2, .jurForm h2 {
+.profileForm h2, .jurForm h2, .ordersForm h2 {
     font-weight: 700;
     font-size: 19px;
     line-height: 23px;
     color: #4E4E4E;
     padding-top: 23px;
 }
-.profileForm, .jurForm {
-    box-shadow: 0px 1px 17px rgba(201, 201, 201, 0.22);
+.profileForm, .jurForm, .ordersForm {
     border-radius: 10px;
     padding-left: 23px;
     margin-bottom: 50px;
@@ -2262,6 +2285,24 @@ content h1 {
     border-radius: 45px;
     color: white;
     border: 0;
+ }
+.more_btn {
+    width: 215px;
+    height: 49px;
+    background: #2391CA;
+    border-radius: 45px;
+    color: white;
+    border: 0;
+    padding: 5px 20px;
+ }
+.remove_order {
+    width: 215px;
+    height: 49px;
+    background: #F69223;
+    border-radius: 45px;
+    color: white;
+    border: 0;
+    padding: 5px 20px;
  }
 
 #profileForm .btn_blue_form {
@@ -2319,4 +2360,31 @@ content h1 {
     line-height: 25px;
     color: #2391CA;
     text-align: right;
+}
+.td_btn {
+    text-align: right !important;
+}
+
+.subscribeForm input {
+    height: 43px;
+    width: 215px;
+    background: #F2F2F2;
+    box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
+    border-radius: 45px;
+    border: 0;
+
+}
+.subscribeForm button {
+    width: 161px;
+    height: 43px;
+    background: #2391CA;
+    box-shadow: 0px 1px 17px rgba(35, 145, 202, 0.28);
+    border-radius: 45px;
+    border: 0;
+    color: white;
+    margin-left: 25px;
+}
+
+.subscribeForm {
+    margin-bottom: 44px;
 }
