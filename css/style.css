@@ -2445,3 +2445,62 @@ content h1 {
     margin-top: 23px;
     margin-bottom: 73px;
 }
+.statusInfo a {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 221px;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 12px 20px;
+}
+.statusInfo span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2391CA;
+
+}
+.statusInfo p {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #8E8E8E;
+
+}
+.statusInfo {
+    box-shadow: 0px 1px 17px rgba(201, 201, 201, 0.22);
+    border-radius: 10px;
+}
+
+.myStatus {
+    padding-bottom: 21px;
+    box-shadow: 0px 1px 17px rgba(201, 201, 201, 0.22);
+    border-radius: 10px;
+
+}
+.myStatus span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: #2391CA;
+}
+.myStatus p{
+    text-align: center;
+    margin-bottom: 0;
+}
+.statusGold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    color: #EE7F00;
+    margin-top: 9px;
+}
+
+.myOrdersBox {
+    margin-left: 0;
+}
+.ordersFormBox {
+    margin-bottom: 11px;
+}
