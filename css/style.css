@@ -2504,3 +2504,75 @@ content h1 {
 .ordersFormBox {
     margin-bottom: 11px;
 }
+.myOrdersBox .close_link{
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+.myOrdersBox .active_link{
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+.myOrdersBox .search-button {
+    right: 25px;
+}
+.myOrdersBox .btn_orange {
+    padding-left: 30px;
+    width: 125px;
+
+}
+.myOrdersBox .accordion-button {
+    background: #2391CA;
+    border-radius: 10px !important;
+    color: #fff !important;
+}
+.myOrdersBox .accordion-button span {
+    color: #fff !important;
+}
+.myOrdersBox .accordion-body {
+    padding: 0;
+}
+.myOrdersBox .accordion-body h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4E4E4E;
+    margin-top: 15px;
+}
+.myOrdersBox .accordion-body p {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #8E8E8E;
+}
+.myOrdersBox .accordion-body p span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2391CA;
+}
+
+.myOrdersBox .ordersBoxItem {
+    background: #F2F2F2;
+    border-radius: 10px;
+    margin-bottom: 21px;
+}
+.myOrdersBox .ordersBoxItem img{
+   width: 58px;
+}
+.myOrdersBox .ordersBoxItem h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4E4E4E;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.tablePay {
+    padding: 0;
+}
