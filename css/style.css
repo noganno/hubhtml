@@ -2516,14 +2516,12 @@ content h1 {
     line-height: 14px;
     color: #8E8E8E;
 }
-
 .myOrdersBox .search-button {
     right: 25px;
 }
 .myOrdersBox .btn_orange {
     padding-left: 30px;
     width: 125px;
-
 }
 .myOrdersBox .accordion-button {
     background: #2391CA;
@@ -2555,7 +2553,6 @@ content h1 {
     line-height: 25px;
     color: #2391CA;
 }
-
 .myOrdersBox .ordersBoxItem {
     background: #F2F2F2;
     border-radius: 10px;
