@@ -2651,7 +2651,7 @@ content h1 {
     margin-bottom: 15px;
 }
 
-.delayBox .btn_blue {
+.delayBox .btn_blue, .orderBox .btn_blue {
     border: 0;
     padding-top: 0;
 }
@@ -2690,4 +2690,82 @@ content h1 {
 
 .delayBox .btn_blue {
     float: right;
+}
+
+.orderBox .btn_orange {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    color: #FFFFFF;
+    box-shadow: 0px 16px 24px rgba(35, 145, 202, 0.25);
+    border-radius: 45px;
+    width: 204px;
+    height: 48px;
+    display: inline-block;
+    margin-top: 15px;
+    float: right;
+    margin-right: 10px;
+}
+
+.orderBox .btn_blue {
+    margin-top: 15px;
+    display: inline-block;
+    float: right;
+}
+
+.blueText {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2391CA;
+}
+.iconBox {
+    margin-top: 28px;
+}
+.iconBox, .statusBoxInfo {
+    margin-left: 77px;
+}
+.statusBoxInfo {
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(142, 142, 142, 0.29);
+}
+.statusBoxInfo .active {
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2391CA;
+}
+
+.infoProduct {
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4E4E4E;
+}
+.infoProduct h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2391CA;
+}
+
+.infoProductTotal h4 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 25px;
+    color: #2391CA;
+}
+.infoProductTotal {
+  text-align: right;
+}
+
+.payInfo {
+    margin-bottom: 43px;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4E4E4E;
+    margin-top: 33px;
 }
