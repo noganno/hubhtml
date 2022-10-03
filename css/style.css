@@ -2573,3 +2573,121 @@ content h1 {
 .tablePay {
     padding: 0;
 }
+.inputForm {
+    background: #F2F2F2;
+    box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
+    border-radius: 45px;
+    width: 100%;
+    border: 0;
+    margin-bottom: 15px;
+    height: 43px;
+}
+.inputForm:focus-visible {
+    border: 0;
+}
+
+.messageForm textarea {
+    height: 160px;
+    border-radius: 20px;
+    padding-top: 13px;
+    padding-left: 18px;
+}
+
+.messageForm button {
+    border: 0;
+    padding-top: 0;
+    float: right;
+    margin-bottom: 25px;
+}
+
+.messageItem {
+    background: rgba(35, 145, 202, 0.1);
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 19px;
+}
+.messageItemNew {
+    background: rgba(35, 145, 202, 0.1);
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.historyBoxMessage h2{
+    margin-left: 10px;
+}
+
+.messageStatus {
+    margin-left: 10px;
+    margin-top: 12px;
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4E4E4E;
+}
+
+.messageStatus span {
+    color: #2391CA;
+}
+
+.messageName {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4E4E4E;
+}
+
+.messageDate {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #2391CA;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.delayBox .btn_blue {
+    border: 0;
+    padding-top: 0;
+}
+.delayBox select {
+    background: #F2F2F2;
+    border-radius: 45px;
+    width: 272px;
+}
+
+.delayBox select:focus-visible {
+    border: 0;
+}
+
+.delayBoxH2 {
+    text-align: center;
+}
+.delayBoxTable table {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.delayBoxTable  {
+    margin-right: 10px;
+}
+
+.delayBoxTable input{
+    background: #F4F4F4;
+    border-radius: 5px;
+    width: 110px;
+    border: 0;
+}
+
+.closeDelay {
+    margin-left: 32px;
+    margin-bottom: 7px  ;
+}
+
+.delayBox .btn_blue {
+    float: right;
+}
