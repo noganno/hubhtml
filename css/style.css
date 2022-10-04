@@ -2651,7 +2651,7 @@ content h1 {
     margin-bottom: 15px;
 }
 
-.delayBox .btn_blue, .orderBox .btn_blue {
+.delayBox .btn_blue, .orderBox .btn_blue, .serviceBox .btn_blue {
     border: 0;
     padding-top: 0;
 }
@@ -2768,4 +2768,33 @@ content h1 {
     line-height: 25px;
     color: #4E4E4E;
     margin-top: 33px;
+}
+
+.serviceBoxItem {
+    background: #fff;
+    box-shadow: 0px 1px 17px rgba(201, 201, 201, 0.22);
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 18px;
+}
+.serviceBoxItem h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4E4E4E;
+}
+.serviceBox .btn_blue{
+    width: 154px;
+    height: 35px;
+    float: right;   
+}
+.serviceBoxItem img{
+   width: 67px;
+}
+
+.serviceBox {
+    margin-bottom: 400px;
+}
+.serviceBoxH1 {
+    margin-bottom: 10px;
 }
