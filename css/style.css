@@ -9,7 +9,9 @@ body, html {
     font-style: normal;
     background: #FCFCFC;
 }
-
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 @font-face {
     font-family: "Futura PT";
     src: url("futura_pt_book.ttf") format("truetype");
@@ -2786,7 +2788,7 @@ content h1 {
 .serviceBox .btn_blue{
     width: 154px;
     height: 35px;
-    float: right;   
+    float: right;
 }
 .serviceBoxItem img{
    width: 67px;
@@ -2797,4 +2799,64 @@ content h1 {
 }
 .serviceBoxH1 {
     margin-bottom: 10px;
+}
+
+#serviceBoxModal .modal-title {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    color: #4E4E4E;
+
+}
+#serviceBoxModal .modal-header {
+    border-bottom: 0;
+}
+#serviceBoxModal .modal-footer {
+    border-top: 0;
+}
+#serviceBoxModal .btn-primary {
+    width: 174px;
+    height: 42px;
+    background: #2391CA;
+    box-shadow: 0px 16px 24px rgba(35, 145, 202, 0.25);
+    border-radius: 45px;
+}
+
+#serviceBoxModal .modal-body {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+}
+#serviceBoxModal .modal-body select{
+    background: #F2F2F2;
+    box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
+    border-radius: 45px;
+}
+#serviceBoxModal .modal-body input[type="text"]{
+    background: #F2F2F2;
+    box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
+    border-radius: 45px;
+    border: 0;
+    width: 220px;
+    height: 43px;
+}
+#serviceBoxModal .modal-body .row{
+    margin-bottom: 6px;
+}
+#serviceBoxModal .modal-body textarea{
+    background: #F2F2F2;
+    box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
+    border-radius: 20px;
+    width: 100%;
+}
+.checkboxLink {
+    margin-top: 18px;
+}
+.checkboxLink a{
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 25px;
+    color: #2391CA;
 }

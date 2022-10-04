@@ -734,7 +734,7 @@
                     <div class="col-9">
                         <h3>Ройтман Рафаэль Евгеньевич</h3>
                         <p>Молочные и кисломолочные продукты</p>
-                        <button class="btn_blue">Заказать услугу</button>
+                        <button data-bs-toggle="modal" data-bs-target="#serviceBoxModal" class="btn_blue">Заказать услугу</button>
                     </div>
                 </div>
             </div>
@@ -747,7 +747,7 @@
                     <div class="col-9">
                         <h3>Ройтман Рафаэль Евгеньевич</h3>
                         <p>Молочные и кисломолочные продукты</p>
-                        <button class="btn_blue">Заказать услугу</button>
+                        <button data-bs-toggle="modal" data-bs-target="#serviceBoxModal" class="btn_blue">Заказать услугу</button>
                     </div>
                 </div>
             </div>
@@ -760,7 +760,7 @@
                     <div class="col-9">
                         <h3>Ройтман Рафаэль Евгеньевич</h3>
                         <p>Молочные и кисломолочные продукты</p>
-                        <button class="btn_blue">Заказать услугу</button>
+                        <button data-bs-toggle="modal" data-bs-target="#serviceBoxModal" class="btn_blue">Заказать услугу</button>
                     </div>
                 </div>
             </div>
@@ -769,6 +769,95 @@
         </div>
     </div>
 </content>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="serviceBoxModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Заказ услуги</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="row">
+                    <div class="col">
+                        <p>Эксперт</p>
+                        <select class="form-select" aria-label="Все пользователи">
+                            <option selected>Все пользователи</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <p>Услуга</p>
+                        <select class="form-select" aria-label="Все пользователи">
+                            <option selected>Все пользователи</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Цена</p>
+                        <input type="text" placeholder="Бесплатно" name="" value="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Имя</p>
+                        <input type="text" name="" value="">
+                    </div>
+                    <div class="col">
+                        <p>Фамилия</p>
+                        <input type="text"  name="" value="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Телефон</p>
+                        <input type="text" name="" value="">
+                    </div>
+                    <div class="col">
+                        <p>Email</p>
+                        <input type="text"  name="" value="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Описание</p>
+                        <textarea  rows="5" cols="5"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Документы</p>
+                        <input type="file" name="" value="">
+                    </div>
+                </div>
+
+                <div class="row checkboxLink">
+                    <div class="col">
+                        <input type="checkbox" name="" value=""> Я согласен с <a href="#">политикой конфиденциальности</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Заказать услугу</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <footer>
