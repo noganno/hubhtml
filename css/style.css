@@ -9,9 +9,11 @@ body, html {
     font-style: normal;
     background: #FCFCFC;
 }
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: "Futura PT";
     src: url("futura_pt_book.ttf") format("truetype");
@@ -134,6 +136,7 @@ header .column a {
     width: 140px;
     display: inline-block;
     border: 0;
+    color: #fff;
 }
 
 .flag_ru_btn {
@@ -536,6 +539,7 @@ header .column a {
     border-radius: 20px;
     overflow: hidden;
 }
+
 .ordersForm thead {
     background: #F2F2F2;
     border-radius: 10px;
@@ -548,11 +552,14 @@ header .column a {
     border-radius: 20px;
     overflow: hidden;
 }
+
 .ordersForm tr {
     height: 59px;
 }
+
 .ordersForm td, .ordersForm th {
-    vertical-align: middle; text-align: center;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .more {
@@ -2215,6 +2222,7 @@ content h1 {
     line-height: 25px;
     color: #DB0031;
 }
+
 .blue_status {
     font-weight: 450;
     font-size: 15px;
@@ -2253,11 +2261,13 @@ content h1 {
     color: #4E4E4E;
     padding-top: 23px;
 }
+
 .profileForm, .jurForm, .ordersForm {
     border-radius: 10px;
     padding-left: 23px;
     margin-bottom: 50px;
 }
+
 .profileForm p {
     font-weight: 450;
     font-size: 14px;
@@ -2287,7 +2297,8 @@ content h1 {
     border-radius: 45px;
     color: white;
     border: 0;
- }
+}
+
 .more_btn {
     width: 215px;
     height: 49px;
@@ -2296,7 +2307,8 @@ content h1 {
     color: white;
     border: 0;
     padding: 5px 20px;
- }
+}
+
 .remove_order {
     width: 215px;
     height: 49px;
@@ -2305,7 +2317,7 @@ content h1 {
     color: white;
     border: 0;
     padding: 5px 20px;
- }
+}
 
 .history_btn {
     width: 168px;
@@ -2332,12 +2344,14 @@ content h1 {
     float: right;
     padding: 0;
 }
+
 .jurForm .search_form_li {
     width: 200px;
     margin-left: 0;
 }
+
 .jurForm .search-button {
-   right: 22px;
+    right: 22px;
 }
 
 .jurBox h3 {
@@ -2347,7 +2361,7 @@ content h1 {
     color: #4E4E4E;
 }
 
-.jurBox{
+.jurBox {
     background: #F2F2F2;
     border-radius: 10px;
     margin-right: 15px;
@@ -2363,19 +2377,22 @@ content h1 {
     line-height: 25px;
     color: #8E8E8E;
 }
-.inn span{
+
+.inn span {
     font-weight: 450;
     font-size: 13px;
     line-height: 25px;
     color: #2391CA;
 }
-.jurBox p, .jurBox a{
+
+.jurBox p, .jurBox a {
     font-weight: 450;
     font-size: 15px;
     line-height: 25px;
     color: #2391CA;
     text-align: right;
 }
+
 .td_btn {
     text-align: right !important;
 }
@@ -2389,6 +2406,7 @@ content h1 {
     border: 0;
 
 }
+
 .subscribeForm button {
     width: 161px;
     height: 43px;
@@ -2407,6 +2425,7 @@ content h1 {
 .historyBox {
     margin-top: 23px;
 }
+
 .historyBox a {
     font-weight: 450;
     font-size: 15px;
@@ -2424,17 +2443,21 @@ content h1 {
     padding: 5px 20px;
     border: 0;
 }
+
 .historyForm {
     margin-top: 26px;
 }
-.historyForm .form-select{
+
+.historyForm .form-select {
     background-color: #F2F2F2;
     background: #F2F2F2;
     border-radius: 45px;
 }
+
 .form-select:focus, .form-select:focus-visible {
     border-color: #F2F2F2;
 }
+
 .historyForm input {
     width: 83px;
     height: 35px;
@@ -2447,6 +2470,7 @@ content h1 {
     margin-top: 23px;
     margin-bottom: 73px;
 }
+
 .statusInfo a {
     font-weight: 450;
     font-size: 16px;
@@ -2457,6 +2481,7 @@ content h1 {
     margin-top: 0;
     padding: 12px 20px;
 }
+
 .statusInfo span {
     font-weight: 700;
     font-size: 16px;
@@ -2464,6 +2489,7 @@ content h1 {
     color: #2391CA;
 
 }
+
 .statusInfo p {
     font-weight: 450;
     font-size: 15px;
@@ -2471,6 +2497,7 @@ content h1 {
     color: #8E8E8E;
 
 }
+
 .statusInfo {
     box-shadow: 0px 1px 17px rgba(201, 201, 201, 0.22);
     border-radius: 10px;
@@ -2482,16 +2509,19 @@ content h1 {
     border-radius: 10px;
 
 }
-.myStatus span{
+
+.myStatus span {
     font-weight: 700;
     font-size: 14px;
     line-height: 25px;
     color: #2391CA;
 }
-.myStatus p{
+
+.myStatus p {
     text-align: center;
     margin-bottom: 0;
 }
+
 .statusGold {
     font-weight: 700;
     font-size: 18px;
@@ -2503,39 +2533,48 @@ content h1 {
 .myOrdersBox {
     margin-left: 0;
 }
+
 .ordersFormBox {
     margin-bottom: 11px;
 }
-.myOrdersBox .close_link{
+
+.myOrdersBox .close_link {
     font-weight: 450;
     font-size: 16px;
     line-height: 14px;
     color: #8E8E8E;
 }
-.myOrdersBox .active_link{
+
+.myOrdersBox .active_link {
     font-weight: 450;
     font-size: 16px;
     line-height: 14px;
     color: #8E8E8E;
 }
+
 .myOrdersBox .search-button {
     right: 25px;
 }
+
 .myOrdersBox .btn_orange {
     padding-left: 30px;
     width: 125px;
 }
+
 .myOrdersBox .accordion-button {
     background: #2391CA;
     border-radius: 10px !important;
     color: #fff !important;
 }
+
 .myOrdersBox .accordion-button span {
     color: #fff !important;
 }
+
 .myOrdersBox .accordion-body {
     padding: 0;
 }
+
 .myOrdersBox .accordion-body h3 {
     font-weight: 700;
     font-size: 16px;
@@ -2543,27 +2582,32 @@ content h1 {
     color: #4E4E4E;
     margin-top: 15px;
 }
+
 .myOrdersBox .accordion-body p {
     font-weight: 450;
     font-size: 15px;
     line-height: 25px;
     color: #8E8E8E;
 }
-.myOrdersBox .accordion-body p span{
+
+.myOrdersBox .accordion-body p span {
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     color: #2391CA;
 }
+
 .myOrdersBox .ordersBoxItem {
     background: #F2F2F2;
     border-radius: 10px;
     margin-bottom: 21px;
 }
-.myOrdersBox .ordersBoxItem img{
-   width: 58px;
+
+.myOrdersBox .ordersBoxItem img {
+    width: 58px;
 }
-.myOrdersBox .ordersBoxItem h5{
+
+.myOrdersBox .ordersBoxItem h5 {
     font-weight: 700;
     font-size: 16px;
     line-height: 23px;
@@ -2575,6 +2619,7 @@ content h1 {
 .tablePay {
     padding: 0;
 }
+
 .inputForm {
     background: #F2F2F2;
     box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
@@ -2584,6 +2629,7 @@ content h1 {
     margin-bottom: 15px;
     height: 43px;
 }
+
 .inputForm:focus-visible {
     border: 0;
 }
@@ -2611,6 +2657,7 @@ content h1 {
     margin-right: 23px;
     margin-top: 19px;
 }
+
 .messageItemNew {
     background: rgba(35, 145, 202, 0.1);
     border-radius: 20px;
@@ -2620,7 +2667,8 @@ content h1 {
     margin-right: 10px;
     margin-bottom: 15px;
 }
-.historyBoxMessage h2{
+
+.historyBoxMessage h2 {
     margin-left: 10px;
 }
 
@@ -2657,6 +2705,7 @@ content h1 {
     border: 0;
     padding-top: 0;
 }
+
 .delayBox select {
     background: #F2F2F2;
     border-radius: 45px;
@@ -2670,15 +2719,17 @@ content h1 {
 .delayBoxH2 {
     text-align: center;
 }
+
 .delayBoxTable table {
     margin-left: 10px;
     margin-right: 10px;
 }
-.delayBoxTable  {
+
+.delayBoxTable {
     margin-right: 10px;
 }
 
-.delayBoxTable input{
+.delayBoxTable input {
     background: #F4F4F4;
     border-radius: 5px;
     width: 110px;
@@ -2687,7 +2738,7 @@ content h1 {
 
 .closeDelay {
     margin-left: 32px;
-    margin-bottom: 7px  ;
+    margin-bottom: 7px;
 }
 
 .delayBox .btn_blue {
@@ -2721,18 +2772,22 @@ content h1 {
     line-height: 20px;
     color: #2391CA;
 }
+
 .iconBox {
     margin-top: 28px;
 }
+
 .iconBox, .statusBoxInfo {
     margin-left: 77px;
 }
+
 .statusBoxInfo {
     font-weight: 450;
     font-size: 20px;
     line-height: 25px;
     color: rgba(142, 142, 142, 0.29);
 }
+
 .statusBoxInfo .active {
     font-weight: 450;
     font-size: 20px;
@@ -2746,6 +2801,7 @@ content h1 {
     line-height: 25px;
     color: #4E4E4E;
 }
+
 .infoProduct h4 {
     font-weight: 700;
     font-size: 20px;
@@ -2759,8 +2815,9 @@ content h1 {
     line-height: 25px;
     color: #2391CA;
 }
+
 .infoProductTotal {
-  text-align: right;
+    text-align: right;
 }
 
 .payInfo {
@@ -2779,24 +2836,28 @@ content h1 {
     margin-right: 10px;
     padding: 18px;
 }
-.serviceBoxItem h3{
+
+.serviceBoxItem h3 {
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     color: #4E4E4E;
 }
-.serviceBox .btn_blue{
+
+.serviceBox .btn_blue {
     width: 154px;
     height: 35px;
     float: right;
 }
-.serviceBoxItem img{
-   width: 67px;
+
+.serviceBoxItem img {
+    width: 67px;
 }
 
 .serviceBox {
     margin-bottom: 400px;
 }
+
 .serviceBoxH1 {
     margin-bottom: 10px;
 }
@@ -2809,12 +2870,15 @@ content h1 {
     color: #4E4E4E;
 
 }
+
 #serviceBoxModal .modal-header {
     border-bottom: 0;
 }
+
 #serviceBoxModal .modal-footer {
     border-top: 0;
 }
+
 #serviceBoxModal .btn-primary {
     width: 174px;
     height: 42px;
@@ -2829,12 +2893,14 @@ content h1 {
     line-height: 20px;
     color: #4E4E4E;
 }
-#serviceBoxModal .modal-body select{
+
+#serviceBoxModal .modal-body select {
     background: #F2F2F2;
     box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
     border-radius: 45px;
 }
-#serviceBoxModal .modal-body input[type="text"]{
+
+#serviceBoxModal .modal-body input[type="text"] {
     background: #F2F2F2;
     box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
     border-radius: 45px;
@@ -2842,19 +2908,23 @@ content h1 {
     width: 220px;
     height: 43px;
 }
-#serviceBoxModal .modal-body .row{
+
+#serviceBoxModal .modal-body .row {
     margin-bottom: 6px;
 }
-#serviceBoxModal .modal-body textarea{
+
+#serviceBoxModal .modal-body textarea {
     background: #F2F2F2;
     box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
     border-radius: 20px;
     width: 100%;
 }
+
 .checkboxLink {
     margin-top: 18px;
 }
-.checkboxLink a{
+
+.checkboxLink a {
     font-weight: 450;
     font-size: 14px;
     line-height: 25px;
@@ -2873,7 +2943,8 @@ content h1 {
 .requisitesBoxItem {
     margin-bottom: 16px;
 }
-.requisitesBoxItem p{
+
+.requisitesBoxItem p {
     font-weight: 450;
     font-size: 14px;
     line-height: 25px;
@@ -2885,13 +2956,12 @@ content h1 {
     border: 1px solid #2391CA;
     filter: drop-shadow(0px 1px 17px rgba(245, 245, 245, 0.28));
     border-radius: 45px;
-    width: 215px;
     height: 43px;
     background: #fff;
     color: #2391CA;
 }
 
-.requisitesBox .delayBoxTable input[type="text"]  {
+.requisitesBox .delayBoxTable input[type="text"] {
     width: 110px;
     height: 36px;
     background: #F4F4F4;
@@ -2900,4 +2970,98 @@ content h1 {
 
 .saveFormBox {
     text-align: right;
+}
+
+@media (min-width: 1600px) {
+    header .bg {
+        height: 82px;
+    }
+
+    .container {
+        max-width: 1650px
+    }
+
+    .left_menu {
+        width: 100px;
+        height: 82px;
+    }
+
+    .left_menu_img {
+        height: 38px;
+        margin-top: 20px;
+    }
+
+    .logo img {
+        top: 25px;
+        height: 28px;
+    }
+
+    .catalog_menu, .login_menu {
+        padding-top: 0;
+    }
+
+    .btn_orange {
+        width: 228px;
+        height: 49px;
+        border: 0;
+        background: #F69223;
+        box-shadow: 0px 16px 24px rgba(35, 145, 202, 0.25);
+        border-radius: 45px;
+        text-align: center;
+        margin-top: 16px;
+        font-weight: 450;
+        font-size: 23px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    .search_form input, .ordersBox input, #profileForm input {
+        height: 55px;
+    }
+
+    .infobox_col p, .contactbox p {
+        margin-bottom: 15px;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    .flag_ru_btn, .catalog_menu a {
+        font-size: 23px;
+    }
+
+    .timebox {
+        font-size: 24px;
+    }
+
+    .btn_catalog {
+        height: 62px;
+    }
+
+    .infobox_col {
+        padding-left: 100px;
+    }
+
+    .profile .left_menu_profile {
+        width: 315px;
+    }
+
+    body, html, .requisitesBoxItem p, .profile .accordion ul li a, .profile .left_menu_profile .accordion-header button, footer {
+        font-size: 20px;
+    }
+
+    .requisitesBox input[type="text"] {
+        width: 309px;
+        height: 53px;
+        background: #F4F4F4;
+        border-radius: 5px;
+    }
+
+    .btn_blue_noborder {
+        width: 309px;
+        height: 53px;
+        border: 2px solid #2391CA;
+        border-radius: 5px;
+    }
 }
