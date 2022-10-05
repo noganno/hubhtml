@@ -3202,3 +3202,11 @@ content h1 {
 .basketIcon {
     margin-left: 16px;
 }
+.categoryBoxList .imgBox {
+    position: relative;
+}
+.categoryBoxList .wishIcon {
+    position: absolute;
+    right: 12px;
+    top: 17px;
+}
