@@ -3065,3 +3065,94 @@ content h1 {
         border-radius: 5px;
     }
 }
+
+.left_menu_category .accordion, .left_menu_category .accordion-item, .left_menu_category .accordion-header, .left_menu_category .accordion-button{
+    background: #F2F2F2;
+    background-color: #F2F2F2 !important;
+    box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
+    border-radius: 10px;
+}
+
+.left_menu_category {
+    background: #FCFCFC;
+    background-color: #FCFCFC !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+.topCategoryPanel h2{
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 23px;
+    padding-top: 0;
+}
+.topCategoryPanel .col-8{
+    text-align: right;
+}
+.topCategoryPanel a.blueText{
+    margin-right: 44px;
+}
+.topCategoryPanel .col-8 span{
+    margin-right: 18px;
+}
+
+.categoryList {
+    margin-right: 17px;
+}
+
+.categoryBox .card {
+    width: 187px;
+}
+.categoryBox {
+    margin-top: 23px;
+}
+.categoryBox .card .card-img-top {
+    width: 183px;
+    padding: 5px;
+    margin: 0;
+    padding-right: 18px;
+    padding-left: 0px;
+}
+.categoryBox .col {
+    width: 203px;
+}
+
+.pagination {
+    margin-top: 51px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
+}
+.pagination a{
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+    color: #8E8E8E;
+    margin-right: 13px;
+}
+.pagination a.active{
+    width: 25px;
+    height: 25px;
+    background: #2391CA;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.filterH3 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    padding-top: 15px;
+    padding-left: 18px;
+}
+
+.filterPrice {
+    width: 68px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+
+.profile .left_menu_category .accordion-header button {
+    padding-left: 18px;
+}
