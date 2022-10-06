@@ -3440,3 +3440,45 @@ content h1 {
     z-index: 100;
     right: -90%;
 }
+
+.newsBox .btn_blue_noborder{
+    width: 157px;
+    height: 41px;
+    border: 2px solid #2391CA;
+    filter: drop-shadow(0px 16px 24px rgba(35, 145, 202, 0.25));
+    border-radius: 45px;
+}
+.btn_white_noborder{
+    width: 157px;
+    height: 41px;
+    border: 1.5px solid rgba(142, 142, 142, 0.25);
+    filter: drop-shadow(0px 16px 24px rgba(35, 145, 202, 0.25));
+    border-radius: 45px;
+}
+
+.newsBox button {
+    margin-right: 11px;
+}
+.newsBox span {
+    font-weight: 450;
+    font-size: 13px;
+    line-height: 18px;
+    color: #8E8E8E;
+}
+.newsBox .card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+.newsBox .card {
+    width: 255px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 17px rgba(223, 223, 223, 0.25);
+    border-radius: 20px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.newsList {
+
+}
