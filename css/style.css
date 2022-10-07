@@ -3523,8 +3523,9 @@ content h1 {
     padding-bottom: 24px;
 
 }
+
 .news_img, .mapsCart {
-    width: 100% ;
+    width: 100%;
 }
 
 .contact-box-list h4 {
@@ -3532,9 +3533,11 @@ content h1 {
     font-size: 16px;
     line-height: 23px;
 }
+
 .contact-box-list img {
     margin-right: 10px;
 }
+
 .avaContact {
     width: 65px;
 }
@@ -3555,6 +3558,7 @@ content h1 {
     border-radius: 45px;
     margin-bottom: 12px;
 }
+
 .contactForm textarea {
     width: 283px;
     height: 96px;
@@ -3562,6 +3566,7 @@ content h1 {
     border: 1px solid #FAF4F4;
     border-radius: 15px;
 }
+
 .contactForm button {
     width: 283px;
     height: 44px;
@@ -3575,6 +3580,101 @@ content h1 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .contactForm p {
     margin-bottom: 5px;
+}
+
+.bascetBox img {
+    margin-top: 24px;
+    margin-left: 34px;
+}
+
+.bascetBox h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 27px;
+    padding-bottom: 45px;
+}
+
+.bascetBox select {
+    width: 166px;
+    height: 43px;
+    background: #F2F2F2;
+    box-shadow: 0px 1px 17px rgba(245, 245, 245, 0.28);
+    border-radius: 45px;
+}
+
+.bascetBox h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 22px;
+    color: #2391CA;
+    padding-top: 42%;
+}
+
+.profileContact {
+    padding-left: 37px;
+}
+
+.profileContact .form-select {
+    display: inline-block;
+    width: 339px;
+    margin-right: 19px;
+}
+
+.profileContact button {
+    margin-left: 19px;
+}
+
+.mapImage {
+    width: 655px;
+}
+
+.bascetMapContact .locationIcon {
+    margin-left: 56px;
+}
+
+.bascetMapContact .locationIcon {
+    margin-left: 56px;
+}
+
+.bascetBox .col-md-9 {
+    width: 74%;
+    margin-right: 10px;
+}
+
+.bascetBox .col-md-3 {
+    box-shadow: 0px 1px 17px rgba(201, 201, 201, 0.22);
+    border-radius: 10px;
+}
+
+.totalBox {
+    padding-left: 20px;
+    height: 309px;
+}
+
+.totalBox p {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.totalBox button {
+    margin-top: 40px;
+    width: 204px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+}
+
+.totalBox h3 {
+    margin-top: 24px;
+    padding-top: 0;
+}
+
+.totalBox h3 span {
+    color: #4E4E4E;
 }
